@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap.min.css" />
+
+<div class="container">
+    <header class="page-header flex-row">
+        <div class="branding d-xl-inline-flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo" title="Home page" class="logo" width="128" />
+            <h1>CRUD React</h1>
+        </div>
+    </header>
+    <main id="app"></main>
+</div>
+
+<div class="container">
+    <div id="container" class="well"></div>
+    <div id="button"></div>
+</div>
+
+<script src="~/lib/jquery.min.js"></script>
+<script src="~/lib/react.min.js"></script>
+<script src="~/lib/react-dom.min.js"></script>
+<script src="~/lib/react-bootstrap.min.js"></script>
+<script src="~/js/Index.js"></script>
